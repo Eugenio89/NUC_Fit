@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item android:title="About">
+        <menu>
+            <item
+                android:id="@+id/nav_first"
+                android:icon="@android:drawable/sym_contact_card"
+                android:title="Basic Juices and Vegetable Juices" />
+            <item
+                android:id="@+id/nav_second"
+                android:icon="@android:drawable/sym_contact_card"
+                android:title="Nutritious Juices and Baby Food" />
+            <item
+                android:id="@+id/nav_third"
+                android:icon="@android:drawable/sym_contact_card"
+                android:title="Cool Fruit Juices and Cocktails" />
+            <item
+                android:id="@+id/nav_fourth"
+                android:icon="@android:drawable/sym_contact_card"
+                android:title="Smoothies and Frozen Desserts" />
+
+        </menu>
+    </item>
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_control"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Juicer Control" />
+        <item
+            android:id="@+id/nav_health"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="NUC Health" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Settings" />
+    </group>
+
+</menu>

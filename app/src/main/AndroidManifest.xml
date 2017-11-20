@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+    xmlns:tools="http://schemas.android.com/tools"
+    package="eugenio.nuc">
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <!--Esto es nuevo App Independiente-->
+
+    <meta-data
+        android:name="com.google.android.wearable.standalone"
+        android:value="true"
+        />
+
+    <!--Hasta aca-->
+
+
+    <application
+
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+
+        tools:replace="android:icon,android:theme">
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".nuc_health" />
+        <activity android:name=".Settings" />
+        <activity android:name=".JuicerControl" />
+        <activity android:name=".BasicJuices" />
+        <activity android:name=".menu_principal" />
+        <activity android:name=".NutritiousJuices" />
+        <activity android:name=".CoolFruitJuices" />
+        <activity android:name=".Smoothies" />
+        <activity android:name=".BasicAppleJuice" />
+        <activity android:name=".BasicCarrotJuice" />
+        <activity android:name=".BasicPomegranateJuice" />
+        <activity android:name=".BasicPearJuice" />
+        <activity android:name=".BasicOrangeJuice" />
+        <activity android:name=".BasicGrapeJuice" />
+        <activity android:name=".BasicCabbageJuice" />
+        <activity android:name=".BasicTomatoJuice" />
+        <activity android:name=".BasicSpinachJuice" />
+        <activity android:name=".BasicCeleryJuice" />
+        <activity android:name=".BasicKaleJuice" />
+        <activity android:name=".BasicWheatgrassJuice" />
+        <activity android:name=".BasicBellPepperJuice" />
+        <activity android:name=".BasicCarrotAndCeleryJuice" />
+        <activity android:name=".BasicDreamyCarrotJuice" />
+        <activity android:name=".BasicDetoxGreenJuice" />
+        <activity android:name=".BasicCelebCeleryJuice" />
+        <activity android:name=".BasicBabySpinachJuice" />
+        <activity android:name=".BasicMultivitaminJuice" />
+        <activity android:name=".BasicTangyTomato" />
+        <activity android:name=".BasicPurpleCabbageJuice" />
+        <activity android:name=".NutritiousLOHASWheatgrassJuice" />
+        <activity android:name=".NutritiousHydratingCucumberJuice" />
+        <activity android:name=".NutritiousSoothingPearGingerJuice" />
+        <activity android:name=".NutritiousLotusRootEnergyBoostJuice" />
+        <activity android:name=".NutritiousRedVitaminRadishJuice" />
+        <activity android:name=".NutritiousOrangeBeetVitalizingJuice" />
+        <activity android:name=".NutritiousSoyMilk" />
+        <activity android:name=".NutritiousNutMilk" />
+        <activity android:name=".NutritiousAlmondMilk" />
+        <activity android:name=".NutritiousCashewMilk" />
+        <activity android:name=".NutritiousBroccoliChickenPorridge" />
+        <activity android:name=".NutritiousTomatoSoup" />
+        <activity android:name=".NutritiousVegetableAndCheeseFingerFood" />
+        <activity android:name=".NutritiousCarrotAndPotatoMash" />
+        <activity android:name=".NutritiousMangoAndBananaPuree" />
+        <activity android:name=".CoolTropicalMix" />
+        <activity android:name=".CoolSummerSmash" />
+        <activity android:name=".CoolTropicalFantasyMix" />
+        <activity android:name=".CoolSummerWatermelonMix" />
+        <activity android:name=".CoolKiwiMax" />
+        <activity android:name=".CoolPomegranateAppleJuice" />
+        <activity android:name=".CoolBerryBerryJuice" />
+        <activity android:name=".CoolIcedBananaLatte" />
+        <activity android:name=".CoolMangoTangoCoulis" />
+        <activity android:name=".CoolBananaNutSmoothie" />
+        <activity android:name=".CoolPinkGrapefruitade" />
+        <activity android:name=".CoolGreenLemonade" />
+        <activity android:name=".CoolBlueberryade" />
+        <activity android:name=".CoolCherryFizz" />
+        <activity android:name=".CoolTequilaSunrise" />
+        <activity android:name=".CoolAppleMartini" />
+        <activity android:name=".CoolRedSangria" />
+        <activity android:name=".CoolSummerSake" />
+        <activity android:name=".CoolBlueberryMojito" />
+        <activity android:name=".CoolRedEye" />
+        <activity android:name=".CoolWatermelonNomimono" />
+        <activity android:name=".CoolMalibuBayBreeze" />
+        <activity android:name=".SmoothiesCreamyPumpkinSmoothie" />
+        <activity android:name=".SmoothiesSpinachSmoothie" />
+        <activity android:name=".SmoothiesOrientalSweetPotatoesSmoothie" />
+        <activity android:name=".SmoothiesBlueberrySmoothie" />
+        <activity android:name=".SmoothiesMelonBananaSmoothie" />
+        <activity android:name=".SmoothiesCarrotBananaSmoothie" />
+        <activity android:name=".SmoothiesTomatoKiwiSmoothie" />
+        <activity android:name=".SmoothiesCacaoAvocadoBananaSmoothie" />
+        <activity android:name=".SmoothiesCashewCranberrySmoothie" />
+        <activity android:name=".SmoothiesAvocadoPineappleSmoothie" />
+        <activity android:name=".SmoothiesStrawberrySorbet" />
+        <activity android:name=".SmoothiesKiwiSorbet" />
+        <activity android:name=".SmoothiesBlueberrySorbet" />
+        <activity android:name=".SmoothiesMangoSorbet" />
+        <activity android:name=".SmoothiesBananaYogurtGelato" />
+        <activity android:name=".SmoothiesCranberrySorbet" />
+        <activity android:name=".SmoothiesBerryDelight" />
+        <activity android:name=".SmoothiesOrangeLemonSorbet" />
+
+
+    </application
+
+        >
+
+</manifest>

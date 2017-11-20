@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">NUC</string>
+    <string name="GetStarted">Get Started</string>
+    <string name="title_activity_navigation">Navigation</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_apple_juice">AppleJuice</string>
+    <string name="applejuice">
+
+        "Apple Juice is not only detoxifying but also good for lowering cholesterol, aiding digestion, and helping your skin.
+
+        The benefits of apples come from their vitamins, minerals, enzymes, malic acid, and  fiber.
+
+        1 Wash the ingredients well.
+        2 Remove the stems and cut the apples as needed to fit the chute.
+        3 Juice carrots in the Kuvings Whole Slow Juicer."
+
+    </string>
+    <string name="ready_button_label">Ready</string>
+
+</resources>
